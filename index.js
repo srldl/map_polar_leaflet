@@ -58,4 +58,6 @@ map_test2.controller('MapCtrl', function($scope) {
         url: "http://geodata.npolar.no/arcgis/rest/services/Basisdata_Intern/NP_Antarktis_WMTS_3031/MapServer"
 }).addTo(map);
 
+var marker = L.marker([-72.01667, 2.5333]).addTo(map);
+
 });
